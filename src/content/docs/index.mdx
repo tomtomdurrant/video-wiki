@@ -1,13 +1,13 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to the Video Design Wiki
+description: A wiki for all things video design
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Where the magic comes to life
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/VDC_Wiki.webp
   actions:
-    - text: Example Guide
+    - text: Example guide
       link: /guides/example/
       icon: right-arrow
       variant: primary
@@ -16,21 +16,35 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, Tabs } from "@astrojs/starlight/components";
 
-## Next steps
+## Welcome!
+
+<p>
+  This is <i>the</i> dedicated space for exploring and sharing knowledge about
+  Video Design for Live Performance - a dynamic and ever-evolving field that
+  combines creativity, technology, and artistry. Our goal is to demystify this
+  intriguing domain and make it more accessible for everyone, from enthusiasts
+  to professionals.
+</p>
+
+#### What to do?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Update pages" icon="pencil">
+    As a collaborative community, this wiki thrives on the contributions of its
+    members. We warmly encourage you to become an active participant. Whether
+    you're adding a new page with fresh insights or editing existing content to
+    enhance its accuracy and depth, your involvement is invaluable. To start
+    contributing, simply click the "EDIT" button located at the bottom of any
+    page.
+  </Card>
+  <Card title="Read something new" icon="open-book">
+    Learn more in [a random page](/reference/example).
+  </Card>
+  <Card title="Rules" icon="information">
+    Before you begin, we kindly ask you to familiarize yourself with the rules
+    and guidelines of this wiki. Adhering to these standards ensures a
+    respectful, productive, and informative environment for all users.
+  </Card>
 </CardGrid>
